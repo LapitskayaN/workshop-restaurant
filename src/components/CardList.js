@@ -6,7 +6,7 @@ const CardList = () => {
 
    return (
     <div className="cardsList">
-      <p>Restaurant</p>
+      <h1>Restaurant</h1>
       {data.map((element) => (
         <Card
           name={element.itemName}

@@ -37,39 +37,51 @@
   }
 }
 
+/* CardList */
+.cardsList {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;  
+  font-family: Pompadur; 
+}
 
+
+/* Card */
 .card {
   display: flex;
   margin-top: 10px;
+  border: 2px ridge gray; 
+  padding: 10px;
+  background-color: rgba(243, 208, 131, 0.5);
+  font-family: Pompadur; 
+}
+.imgCard {
+  width: 150px;
+  height: 150px;
+ 
 }
 
+/* 1 Card -content */
 .cardContent{
   margin-left: 50px;
  text-align: left;
  width: 500px;
+ 
+  
 }
-.imgVegan {
+.cardContent img {
   width: 50px;
   height: 50px;
-}
+ 
+  }
+
+  /* 2 Card -star */
 .imgStar {
   width: 40px;
   height: auto;
 }
-
-
-.imgCard {
-  width: 150px;
-  height: 150px;
-}
-
-.cardsList {
-  width: 700px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.priceFood {
+/* 3  Card -price */
+.cardPrice {
   text-align: center;
   padding: 3em 0;
   width: 100px;
